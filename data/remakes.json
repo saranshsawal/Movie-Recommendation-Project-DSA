@@ -1,0 +1,248 @@
+[
+  {
+    "familyId": "drishyam_saga",
+    "canonicalTitle": "Drishyam",
+    "coreTheme": "A cable operator cunningly covers up an accidental crime to protect his family from police investigation.",
+    "versions": [
+      { "title": "Drishyam", "language": "Malayalam", "year": 2013, "lead": "Mohanlal", "director": "Jeethu Joseph", "isOriginal": true },
+      { "title": "Drushyam", "language": "Telugu", "year": 2014, "lead": "Venkatesh", "director": "Sripriya", "isOriginal": false },
+      { "title": "Drishya", "language": "Kannada", "year": 2014, "lead": "V. Ravichandran", "director": "P. Vasu", "isOriginal": false },
+      { "title": "Papanasam", "language": "Tamil", "year": 2015, "lead": "Kamal Haasan", "director": "Jeethu Joseph", "isOriginal": false },
+      { "title": "Drishyam", "language": "Hindi", "year": 2015, "lead": "Ajay Devgn", "director": "Nishikant Kamat", "isOriginal": false },
+      { "title": "Sheep Without a Shepherd", "language": "Mandarin (Chinese)", "year": 2019, "lead": "Xiao Yang", "director": "Sam Quah", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "manichitrathazhu_haunting",
+    "canonicalTitle": "Manichitrathazhu / Chandramukhi / Bhool Bhulaiyaa",
+    "coreTheme": "Psychiatrist investigates supernatural occurrences in an ancestral mansion, uncovering split personality disorder.",
+    "versions": [
+      { "title": "Manichitrathazhu", "language": "Malayalam", "year": 1993, "lead": "Mohanlal & Shobana", "director": "Fazil", "isOriginal": true },
+      { "title": "Apthamitra", "language": "Kannada", "year": 2004, "lead": "Vishnuvardhan & Soundarya", "director": "P. Vasu", "isOriginal": false },
+      { "title": "Chandramukhi", "language": "Tamil", "year": 2005, "lead": "Rajinikanth & Jyothika", "director": "P. Vasu", "isOriginal": false },
+      { "title": "Rajmohol", "language": "Bengali", "year": 2005, "lead": "Prosenjit Chatterjee", "director": "Swapan Saha", "isOriginal": false },
+      { "title": "Bhool Bhulaiyaa", "language": "Hindi", "year": 2007, "lead": "Akshay Kumar & Vidya Balan", "director": "Priyadarshan", "isOriginal": false },
+      { "title": "Nagavalli", "language": "Telugu", "year": 2010, "lead": "Venkatesh & Anushka Shetty", "director": "P. Vasu", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "arjun_reddy_chronicles",
+    "canonicalTitle": "Arjun Reddy / Kabir Singh",
+    "coreTheme": "High-functioning surgeon with anger issues spirals into drug and alcohol addiction after heartbreak.",
+    "versions": [
+      { "title": "Arjun Reddy", "language": "Telugu", "year": 2017, "lead": "Vijay Deverakonda", "director": "Sandeep Reddy Vanga", "isOriginal": true },
+      { "title": "Kabir Singh", "language": "Hindi", "year": 2019, "lead": "Shahid Kapoor", "director": "Sandeep Reddy Vanga", "isOriginal": false },
+      { "title": "Adithya Varma", "language": "Tamil", "year": 2019, "lead": "Dhruv Vikram", "director": "Girisayya", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "vikram_vedha_noir",
+    "canonicalTitle": "Vikram Vedha",
+    "coreTheme": "Moral grey lines blurred as an honest police inspector encounters an elusive philosophical gangster.",
+    "versions": [
+      { "title": "Vikram Vedha", "language": "Tamil", "year": 2017, "lead": "R. Madhavan & Vijay Sethupathi", "director": "Pushkar-Gayathri", "isOriginal": true },
+      { "title": "Vikram Vedha", "language": "Hindi", "year": 2022, "lead": "Saif Ali Khan & Hrithik Roshan", "director": "Pushkar-Gayathri", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "ghajini_memory",
+    "canonicalTitle": "Ghajini",
+    "coreTheme": "A businessman suffering from anterograde amnesia (short-term memory loss) seeks revenge using Polaroid photos and tattoos.",
+    "versions": [
+      { "title": "Ghajini", "language": "Tamil", "year": 2005, "lead": "Suriya & Asin", "director": "AR Murugadoss", "isOriginal": true },
+      { "title": "Ghajini", "language": "Hindi", "year": 2008, "lead": "Aamir Khan & Asin", "director": "AR Murugadoss", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "jersey_comeback",
+    "canonicalTitle": "Jersey",
+    "coreTheme": "A failed 36-year-old cricketer returns to the pitch to fulfill his young son's wish for an Indian team jersey.",
+    "versions": [
+      { "title": "Jersey", "language": "Telugu", "year": 2019, "lead": "Nani & Shraddha Srinath", "director": "Gowtam Tinnanuri", "isOriginal": true },
+      { "title": "Jersey", "language": "Hindi", "year": 2022, "lead": "Shahid Kapoor & Mrunal Thakur", "director": "Gowtam Tinnanuri", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "singham_roar",
+    "canonicalTitle": "Singham",
+    "coreTheme": "An uncompromising small-town police inspector wages war against an influential extortionist politician.",
+    "versions": [
+      { "title": "Singam", "language": "Tamil", "year": 2010, "lead": "Suriya & Anushka Shetty", "director": "Hari", "isOriginal": true },
+      { "title": "Singham", "language": "Hindi", "year": 2011, "lead": "Ajay Devgn & Kajal Aggarwal", "director": "Rohit Shetty", "isOriginal": false },
+      { "title": "Kempe Gowda", "language": "Kannada", "year": 2011, "lead": "Sudeepa", "director": "Sudeepa", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "okkadu_kabbadi",
+    "canonicalTitle": "Okkadu / Ghilli / Tevar",
+    "coreTheme": "A young Kabaddi champion rescues an innocent woman from an obsessive factionist warlord.",
+    "versions": [
+      { "title": "Okkadu", "language": "Telugu", "year": 2003, "lead": "Mahesh Babu & Bhumika", "director": "Gunasekhar", "isOriginal": true },
+      { "title": "Ghilli", "language": "Tamil", "year": 2004, "lead": "Thalapathy Vijay & Trisha", "director": "Dharani", "isOriginal": false },
+      { "title": "Ajay", "language": "Kannada", "year": 2006, "lead": "Puneeth Rajkumar", "director": "Meher Ramesh", "isOriginal": false },
+      { "title": "Tevar", "language": "Hindi", "year": 2015, "lead": "Arjun Kapoor & Sonakshi Sinha", "director": "Amit Sharma", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "pokiri_undercover",
+    "canonicalTitle": "Pokiri / Wanted",
+    "coreTheme": "A ruthless mercenary hired by rival underworld gangs is secretly an IPS undercover officer.",
+    "versions": [
+      { "title": "Pokiri", "language": "Telugu", "year": 2006, "lead": "Mahesh Babu & Ileana", "director": "Puri Jagannadh", "isOriginal": true },
+      { "title": "Pokkiri", "language": "Tamil", "year": 2007, "lead": "Thalapathy Vijay & Asin", "director": "Prabhu Deva", "isOriginal": false },
+      { "title": "Wanted", "language": "Hindi", "year": 2009, "lead": "Salman Khan & Ayesha Takia", "director": "Prabhu Deva", "isOriginal": false },
+      { "title": "Porki", "language": "Kannada", "year": 2010, "lead": "Darshan", "director": "M. D. Sridhar", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "ala_vaikunthapurramuloo_heir",
+    "canonicalTitle": "Ala Vaikunthapurramuloo / Shehzada",
+    "coreTheme": "Two newborn boys switched at birth grow up in contrasting socioeconomic worlds until the truth surfaces.",
+    "versions": [
+      { "title": "Ala Vaikunthapurramuloo", "language": "Telugu", "year": 2020, "lead": "Allu Arjun & Pooja Hegde", "director": "Trivikram Srinivas", "isOriginal": true },
+      { "title": "Shehzada", "language": "Hindi", "year": 2023, "lead": "Kartik Aaryan & Kriti Sanon", "director": "Rohit Dhawan", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "kaithi_night_drive",
+    "canonicalTitle": "Kaithi / Bholaa",
+    "coreTheme": "A newly released prisoner drives a truck full of unconscious poisoned cops to safety through drug cartel ambushes.",
+    "versions": [
+      { "title": "Kaithi", "language": "Tamil", "year": 2019, "lead": "Karthi", "director": "Lokesh Kanagaraj", "isOriginal": true },
+      { "title": "Bholaa", "language": "Hindi", "year": 2023, "lead": "Ajay Devgn & Tabu", "director": "Ajay Devgn", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "soorarai_pottru_aviation",
+    "canonicalTitle": "Soorarai Pottru / Sarfira",
+    "coreTheme": "An ambitious rebel dreams of launching a low-cost budget airline accessible to common working-class citizens.",
+    "versions": [
+      { "title": "Soorarai Pottru", "language": "Tamil", "year": 2020, "lead": "Suriya & Aparna Balamurali", "director": "Sudha Kongara", "isOriginal": true },
+      { "title": "Sarfira", "language": "Hindi", "year": 2024, "lead": "Akshay Kumar & Radhikka Madan", "director": "Sudha Kongara", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "lucifer_godfather",
+    "canonicalTitle": "Lucifer / Godfather",
+    "coreTheme": "A political godfather passes away, leaving his adopted son to navigate corrupt party politics and foreign cartels.",
+    "versions": [
+      { "title": "Lucifer", "language": "Malayalam", "year": 2019, "lead": "Mohanlal & Prithviraj", "director": "Prithviraj Sukumaran", "isOriginal": true },
+      { "title": "Godfather", "language": "Telugu", "year": 2022, "lead": "Chiranjeevi & Salman Khan", "director": "Mohan Raja", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "ayyappanum_koshiyum_ego",
+    "canonicalTitle": "Ayyappanum Koshiyum / Bheemla Nayak",
+    "coreTheme": "Clash of male egos between an uncompromising tribal sub-inspector and an arrogant retired army havildar.",
+    "versions": [
+      { "title": "Ayyappanum Koshiyum", "language": "Malayalam", "year": 2020, "lead": "Biju Menon & Prithviraj", "director": "Sachy", "isOriginal": true },
+      { "title": "Bheemla Nayak", "language": "Telugu", "year": 2022, "lead": "Pawan Kalyan & Rana Daggubati", "director": "Saagar K Chandra", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "dabangg_swag",
+    "canonicalTitle": "Dabangg / Gabbar Singh",
+    "coreTheme": "A fearless, eccentric police inspector uses unconventional humor and raw muscle against local mafia dons.",
+    "versions": [
+      { "title": "Dabangg", "language": "Hindi", "year": 2010, "lead": "Salman Khan & Sonakshi Sinha", "director": "Abhinav Kashyap", "isOriginal": true },
+      { "title": "Gabbar Singh", "language": "Telugu", "year": 2012, "lead": "Pawan Kalyan & Shruti Haasan", "director": "Harish Shankar", "isOriginal": false },
+      { "title": "Osthe", "language": "Tamil", "year": 2011, "lead": "Silambarasan", "director": "Dharani", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "three_idiots_engineering",
+    "canonicalTitle": "3 Idiots / Nanban",
+    "coreTheme": "Three engineering college roommates challenge the rigid, rote-learning education system while seeking their lost friend.",
+    "versions": [
+      { "title": "3 Idiots", "language": "Hindi", "year": 2009, "lead": "Aamir Khan, R. Madhavan & Sharman Joshi", "director": "Rajkumar Hirani", "isOriginal": true },
+      { "title": "Nanban", "language": "Tamil", "year": 2012, "lead": "Thalapathy Vijay, Jiiva & Srikanth", "director": "S. Shankar", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "queen_solo_journey",
+    "canonicalTitle": "Queen / Paris Paris / Butterfly",
+    "coreTheme": "A shy, sheltered Delhi girl embarks on her European honeymoon alone after her fiancé calls off the wedding.",
+    "versions": [
+      { "title": "Queen", "language": "Hindi", "year": 2014, "lead": "Kangana Ranaut", "director": "Vikas Bahl", "isOriginal": true },
+      { "title": "Paris Paris", "language": "Tamil", "year": 2019, "lead": "Kajal Aggarwal", "director": "Ramesh Aravind", "isOriginal": false },
+      { "title": "Butterfly", "language": "Kannada", "year": 2019, "lead": "Parul Yadav", "director": "Ramesh Aravind", "isOriginal": false },
+      { "title": "That Is Mahalakshmi", "language": "Telugu", "year": 2019, "lead": "Tamannaah Bhatia", "director": "Prasanth Varma", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "pink_consent",
+    "canonicalTitle": "Pink / Nerkonda Paarvai / Vakeel Saab",
+    "coreTheme": "A veteran lawyer with bipolar disorder defends three young women accused of assault by influential men.",
+    "versions": [
+      { "title": "Pink", "language": "Hindi", "year": 2016, "lead": "Amitabh Bachchan & Taapsee Pannu", "director": "Aniruddha Roy Chowdhury", "isOriginal": true },
+      { "title": "Nerkonda Paarvai", "language": "Tamil", "year": 2019, "lead": "Ajith Kumar & Shraddha Srinath", "director": "H. Vinoth", "isOriginal": false },
+      { "title": "Vakeel Saab", "language": "Telugu", "year": 2021, "lead": "Pawan Kalyan & Nivetha Thomas", "director": "Venu Sriram", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "hit_case_investigation",
+    "canonicalTitle": "HIT: The First Case",
+    "coreTheme": "A homicide intervention team cop fighting severe PTSD races against the clock to solve a girl's disappearance.",
+    "versions": [
+      { "title": "HIT: The First Case", "language": "Telugu", "year": 2020, "lead": "Vishwak Sen & Ruhani Sharma", "director": "Sailesh Kolanu", "isOriginal": true },
+      { "title": "HIT: The First Case", "language": "Hindi", "year": 2022, "lead": "Rajkummar Rao & Sanya Malhotra", "director": "Sailesh Kolanu", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "ratsasan_psycho_thriller",
+    "canonicalTitle": "Ratsasan / Rakshasudu / Cuttputlli",
+    "coreTheme": "An aspiring filmmaker-turned-sub-inspector uses his script research to track a ruthless serial killer targeting schoolgirls.",
+    "versions": [
+      { "title": "Ratsasan", "language": "Tamil", "year": 2018, "lead": "Vishnu Vishal & Amala Paul", "director": "Ram Kumar", "isOriginal": true },
+      { "title": "Rakshasudu", "language": "Telugu", "year": 2019, "lead": "Bellamkonda Sreenivas", "director": "Ramesh Varma", "isOriginal": false },
+      { "title": "Cuttputlli", "language": "Hindi", "year": 2022, "lead": "Akshay Kumar & Rakul Preet Singh", "director": "Ranjit M. Tewari", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "thani_oruvan_nemesis",
+    "canonicalTitle": "Thani Oruvan / Dhruva",
+    "coreTheme": "An intelligent IPS officer targets a corrupt medical-industrial scientist who operates as a mastermind puppet-master.",
+    "versions": [
+      { "title": "Thani Oruvan", "language": "Tamil", "year": 2015, "lead": "Jayam Ravi & Arvind Swamy", "director": "Mohan Raja", "isOriginal": true },
+      { "title": "Dhruva", "language": "Telugu", "year": 2016, "lead": "Ram Charan & Arvind Swamy", "director": "Surender Reddy", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "bangalore_days_cousins",
+    "canonicalTitle": "Bangalore Days / Bangalore Naatkal",
+    "coreTheme": "Three close cousins move to Bangalore to pursue independent adult lives, navigating love, marriage, and motorcycle racing.",
+    "versions": [
+      { "title": "Bangalore Days", "language": "Malayalam", "year": 2014, "lead": "Dulquer Salmaan, Nivin Pauly & Nazriya", "director": "Anjali Menon", "isOriginal": true },
+      { "title": "Bangalore Naatkal", "language": "Tamil", "year": 2016, "lead": "Arya, Bobby Simha & Sri Divya", "director": "Bhaskar", "isOriginal": false },
+      { "title": "Yaariyan 2", "language": "Hindi", "year": 2023, "lead": "Divya Khosla Kumar & Meezaan Jafri", "director": "Radhika Rao & Vinay Sapru", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "shubh_mangal_taboo",
+    "canonicalTitle": "Kalyana Samayal Saadham / Shubh Mangal Saavdhan",
+    "coreTheme": "A young couple prepares for an arranged wedding while confronting the groom's erectile dysfunction taboo.",
+    "versions": [
+      { "title": "Kalyana Samayal Saadham", "language": "Tamil", "year": 2013, "lead": "Prasanna & Lekha Washington", "director": "R. S. Prasanna", "isOriginal": true },
+      { "title": "Shubh Mangal Saavdhan", "language": "Hindi", "year": 2017, "lead": "Ayushmann Khurrana & Bhumi Pednekar", "director": "R. S. Prasanna", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "departed_moles",
+    "canonicalTitle": "Infernal Affairs / The Departed",
+    "coreTheme": "An undercover cop in the mob and a mole in the police department race to discover each other's identities.",
+    "versions": [
+      { "title": "Infernal Affairs", "language": "Cantonese (Hong Kong)", "year": 2002, "lead": "Tony Leung & Andy Lau", "director": "Andrew Lau & Alan Mak", "isOriginal": true },
+      { "title": "The Departed", "language": "English (Hollywood)", "year": 2006, "lead": "Leonardo DiCaprio & Matt Damon", "director": "Martin Scorsese", "isOriginal": false }
+    ]
+  },
+  {
+    "familyId": "seven_samurai_defenders",
+    "canonicalTitle": "Seven Samurai / The Magnificent Seven / Sholay",
+    "coreTheme": "A helpless rural village recruits veteran warriors to defend them against bandit marauders.",
+    "versions": [
+      { "title": "Seven Samurai", "language": "Japanese", "year": 1954, "lead": "Toshiro Mifune & Takashi Shimura", "director": "Akira Kurosawa", "isOriginal": true },
+      { "title": "The Magnificent Seven", "language": "English (Hollywood)", "year": 1960, "lead": "Yul Brynner & Steve McQueen", "director": "John Sturges", "isOriginal": false },
+      { "title": "Sholay", "language": "Hindi", "year": 1975, "lead": "Amitabh Bachchan & Dharmendra", "director": "Ramesh Sippy", "isOriginal": false }
+    ]
+  }
+]

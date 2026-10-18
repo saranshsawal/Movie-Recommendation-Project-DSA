@@ -1,0 +1,47 @@
+{
+  "total_curated_films": 4740,
+  "average_rating": 6.17,
+  "average_runtime_minutes": 107.8,
+  "total_user_votes": 3315116,
+  "decade_breakdown": {
+    "2010s": 1404,
+    "2000s": 2034,
+    "1990s": 773,
+    "1970s": 109,
+    "1980s": 277,
+    "Classic (<1970)": 143
+  },
+  "top_genres": {
+    "Drama": 2275,
+    "Comedy": 1709,
+    "Thriller": 1265,
+    "Action": 1149,
+    "Romance": 891,
+    "Adventure": 790,
+    "Crime": 691,
+    "Science Fiction": 534,
+    "Horror": 513,
+    "Family": 510,
+    "Fantasy": 424,
+    "Mystery": 345,
+    "Animation": 234,
+    "History": 197,
+    "Music": 183,
+    "War": 144,
+    "Documentary": 103,
+    "Western": 79,
+    "Foreign": 34,
+    "TV Movie": 8
+  },
+  "primary_mood_breakdown": {
+    "Feel-Good & Wholesome": 1394,
+    "Deep & Emotional": 1177,
+    "High Adrenaline": 1021,
+    "Dark & Gritty": 537,
+    "Mind-Bending": 322,
+    "Epic & Imaginative": 289
+  },
+  "top_languages": {
+    "English": 4740
+  }
+}

@@ -1,0 +1,7850 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Story DNA Narrative Characteristics Dataset for CineMatch",
+    "traits_count": 10,
+    "total_tagged_movies": 834
+  },
+  "traits": [
+    {
+      "id": "plot_twists",
+      "name": "Plot Twists & Revelations",
+      "icon": "\ud83c\udf00",
+      "description": "Unpredictable story turns, third-act reveals, and reality-altering shocks."
+    },
+    {
+      "id": "slow_burn",
+      "name": "Slow-Burn Storytelling",
+      "icon": "\ud83d\udd6f\ufe0f",
+      "description": "Deliberate pacing, atmospheric tension, and gradual accumulation of dramatic weight."
+    },
+    {
+      "id": "nonlinear",
+      "name": "Nonlinear Timelines",
+      "icon": "\u23f3",
+      "description": "Fragmented chronology, flashbacks, looping structures, and intercut time periods."
+    },
+    {
+      "id": "unreliable_narrator",
+      "name": "Unreliable Narrators",
+      "icon": "\ud83c\udfad",
+      "description": "Subjective reality, distorted perspectives, delusion, or intentional deception by the storyteller."
+    },
+    {
+      "id": "character_transformation",
+      "name": "Character Transformation",
+      "icon": "\ud83e\udd8b",
+      "description": "Profound moral, psychological, or existential evolution across the protagonist journey."
+    },
+    {
+      "id": "psychological_depth",
+      "name": "Psychological Depth",
+      "icon": "\ud83e\udde0",
+      "description": "Intense interiority, obsession, existential dread, trauma, and complex moral dilemmas."
+    },
+    {
+      "id": "mystery_clues",
+      "name": "Mystery & Hidden Clues",
+      "icon": "\ud83d\udd0e",
+      "description": "Investigative riddles, procedural deduction, breadcrumb clues, and intellectual puzzles."
+    },
+    {
+      "id": "parallel_storylines",
+      "name": "Parallel Storylines",
+      "icon": "\ud83d\udd00",
+      "description": "Ensemble casts, interwoven fates, multi-strand narratives, and hyperlinked storytelling."
+    },
+    {
+      "id": "emotion_driven",
+      "name": "Emotion-Driven Storytelling",
+      "icon": "\ud83d\udca7",
+      "description": "Deeply moving narratives emphasizing grief, love, empathy, bittersweet longing, and heart."
+    },
+    {
+      "id": "open_ended",
+      "name": "Open-Ended Conclusions",
+      "icon": "\u2753",
+      "description": "Ambiguous finales, unanswered questions, interpretative endings, and thought-provoking fades."
+    }
+  ],
+  "movie_traits": {
+    "27205": {
+      "traits": [
+        "plot_twists",
+        "nonlinear",
+        "open_ended",
+        "psychological_depth",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines",
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions",
+        "psychological_depth": "Signal: subconscious",
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": true
+    },
+    "550": {
+      "traits": [
+        "plot_twists",
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators"
+      },
+      "verified": true
+    },
+    "1124": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": true
+    },
+    "11324": {
+      "traits": [
+        "plot_twists",
+        "unreliable_narrator",
+        "psychological_depth",
+        "open_ended",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators",
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth",
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": true
+    },
+    "77": {
+      "traits": [
+        "plot_twists",
+        "nonlinear",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines",
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues"
+      },
+      "verified": true
+    },
+    "629": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations"
+      },
+      "verified": true
+    },
+    "745": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": true
+    },
+    "210577": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations"
+      },
+      "verified": true
+    },
+    "539": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations"
+      },
+      "verified": true
+    },
+    "670": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "mystery_clues": "Signal: clue"
+      },
+      "verified": true
+    },
+    "157336": {
+      "traits": [
+        "plot_twists",
+        "nonlinear",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines",
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "807": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues"
+      },
+      "verified": true
+    },
+    "1933": {
+      "traits": [
+        "plot_twists",
+        "nonlinear"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": true
+    },
+    "176": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations"
+      },
+      "verified": true
+    },
+    "2649": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations"
+      },
+      "verified": true
+    },
+    "264660": {
+      "traits": [
+        "plot_twists",
+        "slow_burn"
+      ],
+      "reasons": {
+        "plot_twists": "Curated cinematic benchmark for Plot Twists & Revelations",
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": true
+    },
+    "7345": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling"
+      },
+      "verified": true
+    },
+    "6977": {
+      "traits": [
+        "slow_burn",
+        "open_ended"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling",
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "64690": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling"
+      },
+      "verified": true
+    },
+    "694": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling"
+      },
+      "verified": true
+    },
+    "1949": {
+      "traits": [
+        "slow_burn",
+        "mystery_clues",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling",
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues",
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": true
+    },
+    "152601": {
+      "traits": [
+        "slow_burn",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling",
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "281957": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling"
+      },
+      "verified": true
+    },
+    "146233": {
+      "traits": [
+        "slow_burn",
+        "psychological_depth",
+        "mystery_clues",
+        "open_ended"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling",
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth",
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues",
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "593": {
+      "traits": [
+        "slow_burn",
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling",
+        "unreliable_narrator": "Signal: hallucination",
+        "psychological_depth": "Signal: subconscious"
+      },
+      "verified": true
+    },
+    "103": {
+      "traits": [
+        "slow_burn",
+        "unreliable_narrator",
+        "character_transformation",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling",
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators",
+        "character_transformation": "Curated cinematic benchmark for Character Transformation",
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "310131": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Curated cinematic benchmark for Slow-Burn Storytelling"
+      },
+      "verified": true
+    },
+    "680": {
+      "traits": [
+        "nonlinear",
+        "parallel_storylines",
+        "open_ended"
+      ],
+      "reasons": {
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines",
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines",
+        "open_ended": "Signal: philosophical"
+      },
+      "verified": true
+    },
+    "38": {
+      "traits": [
+        "nonlinear",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines",
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "137": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines"
+      },
+      "verified": true
+    },
+    "137113": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines"
+      },
+      "verified": true
+    },
+    "59967": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines"
+      },
+      "verified": true
+    },
+    "1954": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Curated cinematic benchmark for Nonlinear Timelines"
+      },
+      "verified": true
+    },
+    "453": {
+      "traits": [
+        "unreliable_narrator",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators",
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "1359": {
+      "traits": [
+        "unreliable_narrator",
+        "open_ended"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators",
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "44214": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators",
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "87827": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators"
+      },
+      "verified": true
+    },
+    "194662": {
+      "traits": [
+        "unreliable_narrator",
+        "character_transformation",
+        "open_ended"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators",
+        "character_transformation": "Curated cinematic benchmark for Character Transformation",
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "4553": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Curated cinematic benchmark for Unreliable Narrators"
+      },
+      "verified": true
+    },
+    "238": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "111": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "13": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "278": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "244786": {
+      "traits": [
+        "character_transformation",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation",
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "424": {
+      "traits": [
+        "character_transformation",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation",
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "769": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "37165": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "73": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation"
+      },
+      "verified": true
+    },
+    "8358": {
+      "traits": [
+        "character_transformation",
+        "slow_burn"
+      ],
+      "reasons": {
+        "character_transformation": "Curated cinematic benchmark for Character Transformation",
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": true
+    },
+    "274": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "641": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "28": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "242582": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth"
+      },
+      "verified": true
+    },
+    "510": {
+      "traits": [
+        "psychological_depth",
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "psychological_depth": "Curated cinematic benchmark for Psychological Depth",
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": true
+    },
+    "65754": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues"
+      },
+      "verified": true
+    },
+    "2118": {
+      "traits": [
+        "mystery_clues",
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues",
+        "plot_twists": "Signal: conspiracy",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": true
+    },
+    "591": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues"
+      },
+      "verified": true
+    },
+    "10528": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues"
+      },
+      "verified": true
+    },
+    "322": {
+      "traits": [
+        "mystery_clues",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "mystery_clues": "Curated cinematic benchmark for Mystery & Hidden Clues",
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": true
+    },
+    "334": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines"
+      },
+      "verified": true
+    },
+    "1640": {
+      "traits": [
+        "parallel_storylines",
+        "character_transformation"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines",
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": true
+    },
+    "1164": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines"
+      },
+      "verified": true
+    },
+    "1900": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines"
+      },
+      "verified": true
+    },
+    "508": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines"
+      },
+      "verified": true
+    },
+    "83542": {
+      "traits": [
+        "parallel_storylines",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": true
+    },
+    "187": {
+      "traits": [
+        "parallel_storylines",
+        "character_transformation"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines",
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": true
+    },
+    "107": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines"
+      },
+      "verified": true
+    },
+    "100": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Curated cinematic benchmark for Parallel Storylines"
+      },
+      "verified": true
+    },
+    "497": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "489": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "14160": {
+      "traits": [
+        "emotion_driven",
+        "plot_twists"
+      ],
+      "reasons": {
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling",
+        "plot_twists": "Signal: twist"
+      },
+      "verified": true
+    },
+    "1402": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "207": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "11036": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Curated cinematic benchmark for Emotion-Driven Storytelling"
+      },
+      "verified": true
+    },
+    "1091": {
+      "traits": [
+        "open_ended",
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions",
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": true
+    },
+    "78": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "62": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "861": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Curated cinematic benchmark for Open-Ended Conclusions"
+      },
+      "verified": true
+    },
+    "70160": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "49051": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "272": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "286217": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "106646": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "150540": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: imaginary friend"
+      },
+      "verified": false
+    },
+    "127585": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "672": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "675": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "75656": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "8587": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "198663": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: memory loss"
+      },
+      "verified": false
+    },
+    "109445": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "557": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "70981": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: clue"
+      },
+      "verified": false
+    },
+    "122917": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "82693": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "13475": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "206647": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: cryptic"
+      },
+      "verified": false
+    },
+    "752": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "273248": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "280": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Signal: ambiguity"
+      },
+      "verified": false
+    },
+    "102382": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "41154": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "76170": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: emotional"
+      },
+      "verified": false
+    },
+    "1858": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation",
+        "mystery_clues": "Signal: clue"
+      },
+      "verified": false
+    },
+    "2080": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "1894": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "58574": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "2048": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "64682": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "500": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "87101": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "2501": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "559": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "328111": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "141": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "9502": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "8373": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: cryptic"
+      },
+      "verified": false
+    },
+    "138843": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "1417": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "75780": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "84892": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "156022": {
+      "traits": [
+        "slow_burn",
+        "character_transformation"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "76163": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: ensemble cast"
+      },
+      "verified": false
+    },
+    "278927": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: self discovery"
+      },
+      "verified": false
+    },
+    "2503": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "158852": {
+      "traits": [
+        "mystery_clues",
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets",
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "2502": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "13183": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "264644": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "45612": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "98566": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "296096": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "44912": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "333371": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "324668": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "74": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "429": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "2105": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "810": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "166424": {
+      "traits": [
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking",
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "51540": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "8355": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "225574": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "22970": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "4638": {
+      "traits": [
+        "plot_twists",
+        "slow_burn"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "20504": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "22538": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "1824": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "9339": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "122906": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "1572": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "1576": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "17578": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "11321": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "80278": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "587": {
+      "traits": [
+        "nonlinear",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "59436": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "85350": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "9741": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "49049": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "76726": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "81188": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "616": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "117251": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "82695": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "17431": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "1637": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "9737": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "744": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "364": {
+      "traits": [
+        "unreliable_narrator",
+        "character_transformation"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "44264": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "107846": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "97367": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "38050": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "3049": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "2034": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "388": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "755": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "71679": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "544": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "834": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "235": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "628": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "9679": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "142": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "1018": {
+      "traits": [
+        "nonlinear",
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia",
+        "unreliable_narrator": "Signal: schizophrenia",
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "7485": {
+      "traits": [
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "75174": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "289": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "3170": {
+      "traits": [
+        "character_transformation",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age",
+        "emotion_driven": "Signal: loss of loved one"
+      },
+      "verified": false
+    },
+    "14836": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "1813": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "8078": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "11322": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "251": {
+      "traits": [
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "274854": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "2268": {
+      "traits": [
+        "plot_twists",
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking",
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "72570": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: memory loss"
+      },
+      "verified": false
+    },
+    "7737": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "189": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "59440": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "1577": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "76640": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "215": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "9798": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "345": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "4944": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "1579": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "5503": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "193893": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "65086": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "19959": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "377": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "137094": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "1427": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "320": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "241554": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "3580": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "10545": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "35056": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "97370": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: atmospheric"
+      },
+      "verified": false
+    },
+    "492": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: subconscious"
+      },
+      "verified": false
+    },
+    "840": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "238615": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "1903": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "279": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "813": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "214": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "311": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "588": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "7980": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "12133": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "157547": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "328425": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "157386": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "277685": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "613": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: downfall"
+      },
+      "verified": false
+    },
+    "241251": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "3594": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "816": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "703": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: neurosis"
+      },
+      "verified": false
+    },
+    "9800": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "6557": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "1586": {
+      "traits": [
+        "slow_burn",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "90": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "10184": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: ensemble cast"
+      },
+      "verified": false
+    },
+    "582": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "68727": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "266647": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: bleak"
+      },
+      "verified": false
+    },
+    "392": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: emotional"
+      },
+      "verified": false
+    },
+    "664": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "23169": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: heartbreaking"
+      },
+      "verified": false
+    },
+    "1578": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "8329": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "227719": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "2123": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: schizophrenia"
+      },
+      "verified": false
+    },
+    "12429": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "663": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "23048": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "46705": {
+      "traits": [
+        "slow_burn",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet",
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "5236": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "86825": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "80271": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "9297": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "3082": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "168530": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "947": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "55787": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "82703": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "9772": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "171274": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "796": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "26388": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "9481": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "321741": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "11887": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "11917": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "9637": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "2288": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "314": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "5123": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: clue"
+      },
+      "verified": false
+    },
+    "146198": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "87818": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: ensemble cast"
+      },
+      "verified": false
+    },
+    "5174": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "304410": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "622": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "8413": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination",
+        "psychological_depth": "Signal: nightmare",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "88794": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "18533": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "169": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "41439": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "22804": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "41436": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "164457": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "109091": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "6978": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "68722": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "167": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "49021": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "308639": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "100241": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "71859": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "43923": {
+      "traits": [
+        "character_transformation",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age",
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "2044": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "3989": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "204922": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "14337": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "595": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "533": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "79": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "6537": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: schizophrenia"
+      },
+      "verified": false
+    },
+    "10320": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "1429": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal",
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "4970": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "25376": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Signal: unresolved"
+      },
+      "verified": false
+    },
+    "271969": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "254473": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "96": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "13051": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "13600": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: puzzle"
+      },
+      "verified": false
+    },
+    "47327": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "10024": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: heartbreaking"
+      },
+      "verified": false
+    },
+    "8452": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "1428": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "98357": {
+      "traits": [
+        "plot_twists",
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: double cross",
+        "character_transformation": "Signal: redemption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "30497": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: surprise ending"
+      },
+      "verified": false
+    },
+    "9350": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Signal: cliffhanger"
+      },
+      "verified": false
+    },
+    "338": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "241257": {
+      "traits": [
+        "nonlinear",
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: memory loss",
+        "psychological_depth": "Signal: guilt",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "9571": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "9631": {
+      "traits": [
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "9913": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "28355": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "82990": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: imaginary friend"
+      },
+      "verified": false
+    },
+    "24803": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: intertwined"
+      },
+      "verified": false
+    },
+    "1523": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: downfall"
+      },
+      "verified": false
+    },
+    "84332": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "12096": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "7978": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "11679": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "241239": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "409": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "709": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "979": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "1547": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "2289": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "188207": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "3509": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "2069": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "700": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "9778": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "34813": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "2026": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "10663": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "6615": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: delusion"
+      },
+      "verified": false
+    },
+    "8859": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "42684": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "11024": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "9531": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "846": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "12201": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "985": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "13515": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "16995": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "55301": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "12573": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "93856": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "10982": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "9675": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "168": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "12184": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "10153": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "10559": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "188166": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "291270": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: existentialism"
+      },
+      "verified": false
+    },
+    "74534": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: ensemble cast"
+      },
+      "verified": false
+    },
+    "77949": {
+      "traits": [
+        "mystery_clues",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation",
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "9667": {
+      "traits": [
+        "nonlinear",
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel",
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "837": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "1648": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "11362": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "9208": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "9348": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "617": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "8676": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: clue"
+      },
+      "verified": false
+    },
+    "22824": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "11096": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: imaginary friend"
+      },
+      "verified": false
+    },
+    "9833": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "4614": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "306": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "2114": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: downfall"
+      },
+      "verified": false
+    },
+    "61012": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: revelation"
+      },
+      "verified": false
+    },
+    "8834": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "4953": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: delusion"
+      },
+      "verified": false
+    },
+    "1051": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "11687": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "11232": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "1985": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "174": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "4688": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: intertwined"
+      },
+      "verified": false
+    },
+    "24684": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "8913": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "13510": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "2043": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "70670": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "802": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "2604": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "11529": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "14462": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "2157": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "34647": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "9779": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "2142": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "10774": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "11358": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "9963": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "48034": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "1090": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "9281": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "13389": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "592": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "11618": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "4959": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "10047": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: schizophrenia"
+      },
+      "verified": false
+    },
+    "246403": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "10014": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "253306": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "33217": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "10215": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "10072": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: mental illness",
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "7459": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "1642": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "243938": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "11113": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "2841": {
+      "traits": [
+        "nonlinear",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia",
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "203": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "121986": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "9437": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "177": {
+      "traits": [
+        "psychological_depth",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt",
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "913": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "223": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "2355": {
+      "traits": [
+        "psychological_depth",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma",
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "9890": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "16617": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "335866": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "38810": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "6068": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "11601": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia",
+        "psychological_depth": "Signal: obsession",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "8688": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "11699": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "22327": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "9562": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "83": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "11412": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "1649": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "479": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "44945": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "2637": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "10136": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "44564": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "4517": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "11323": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "94348": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "14435": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: delusion"
+      },
+      "verified": false
+    },
+    "11835": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "10016": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "335778": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "23706": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: puzzle"
+      },
+      "verified": false
+    },
+    "1024": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "26390": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "547": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: meditative"
+      },
+      "verified": false
+    },
+    "8885": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "45958": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "227": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "10998": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "11596": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "134597": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "9676": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "11469": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "44639": {
+      "traits": [
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "46503": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "82687": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "12123": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "2013": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "8831": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "67660": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: ensemble cast"
+      },
+      "verified": false
+    },
+    "10131": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "10610": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "250124": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "10731": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "50837": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "272878": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "50780": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "11934": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "10537": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "257": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "127560": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "11284": {
+      "traits": [
+        "nonlinear",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: memory loss",
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "10226": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "77948": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "8408": {
+      "traits": [
+        "unreliable_narrator",
+        "character_transformation"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity",
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "14199": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: imaginary friend"
+      },
+      "verified": false
+    },
+    "11892": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "6973": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "11804": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "11967": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "37903": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "9728": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "4958": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "10972": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: schizophrenia"
+      },
+      "verified": false
+    },
+    "8592": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "36419": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "293670": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "152599": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "9824": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "36819": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "9825": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "11622": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "10160": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "3083": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "13150": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "1073": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "1599": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "8090": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "2359": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "16281": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology"
+      },
+      "verified": false
+    },
+    "8649": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "8669": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "16991": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "49950": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "66": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "10353": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "82532": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "4464": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "9587": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "44147": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "123678": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "11357": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "309": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression",
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "9573": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "2275": {
+      "traits": [
+        "unreliable_narrator",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: paranoia",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "80215": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: emotional"
+      },
+      "verified": false
+    },
+    "2176": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "34769": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: delusion"
+      },
+      "verified": false
+    },
+    "1710": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "10283": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "8968": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination",
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "2639": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "10223": {
+      "traits": [
+        "slow_burn",
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet",
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "1412": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "1499": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "1909": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: delusion"
+      },
+      "verified": false
+    },
+    "11026": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "11431": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "25643": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "10885": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "3093": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "332411": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "10068": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "577": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "9516": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "12142": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "185567": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "10934": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "56715": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "1809": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: multiple storylines"
+      },
+      "verified": false
+    },
+    "10012": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "310569": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "261": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "27585": {
+      "traits": [
+        "psychological_depth",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma",
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "306745": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "15301": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology"
+      },
+      "verified": false
+    },
+    "4174": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "11908": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "9644": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "314385": {
+      "traits": [
+        "slow_burn",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet",
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "271185": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "302": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "4723": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "13888": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "10894": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "57876": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "11219": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "234212": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "13193": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "8095": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "16619": {
+      "traits": [
+        "psychological_depth",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma",
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "887": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "14043": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "11022": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "12150": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "13967": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "31007": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "43935": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "60309": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "10067": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: transformation"
+      },
+      "verified": false
+    },
+    "10013": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "11398": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "10366": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: destiny"
+      },
+      "verified": false
+    },
+    "11359": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "51588": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "9275": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "65055": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "11184": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "13159": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "16288": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology"
+      },
+      "verified": false
+    },
+    "9895": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "9656": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "101179": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "11058": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: schizophrenia",
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "28053": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "15239": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "125490": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: metamorphosis",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "10077": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "12158": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "8272": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "11027": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "10877": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "10685": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "9422": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "6440": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "1961": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "11217": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: dread"
+      },
+      "verified": false
+    },
+    "10388": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "9544": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "11468": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "9424": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "12211": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "17917": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist"
+      },
+      "verified": false
+    },
+    "10425": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: double cross"
+      },
+      "verified": false
+    },
+    "16633": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "24869": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "9625": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "19457": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "11342": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "1717": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "13990": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "45324": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "19933": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "9104": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "13536": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "207769": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "9616": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "18892": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "10339": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "28260": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "283384": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "10534": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "44754": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "182": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "4911": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "78381": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "66125": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "8988": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "2453": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "8198": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "13849": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "5126": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "7510": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "14396": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "23685": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "26748": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "9389": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "11065": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "16028": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "4997": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "9813": {
+      "traits": [
+        "slow_burn",
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet",
+        "psychological_depth": "Signal: depression",
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "227707": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "10364": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "11354": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "10858": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "6106": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "9548": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "20616": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "15198": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "11062": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "11564": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "13937": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "9583": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "9686": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "254024": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "36095": {
+      "traits": [
+        "unreliable_narrator",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "11620": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "13006": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "118612": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: isolation"
+      },
+      "verified": false
+    },
+    "235271": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "13919": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "11588": {
+      "traits": [
+        "nonlinear",
+        "unreliable_narrator",
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia",
+        "unreliable_narrator": "Signal: paranoia",
+        "psychological_depth": "Signal: nightmare",
+        "mystery_clues": "Signal: puzzle"
+      },
+      "verified": false
+    },
+    "26371": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "327833": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "17436": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: ensemble cast"
+      },
+      "verified": false
+    },
+    "13508": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "17264": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "13173": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: multiple storylines"
+      },
+      "verified": false
+    },
+    "20024": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "16148": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "291081": {
+      "traits": [
+        "character_transformation",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "17577": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "351043": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: memory loss"
+      },
+      "verified": false
+    },
+    "301325": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "9821": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "98568": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "50497": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "14033": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "14054": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "14745": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "8291": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "75861": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "63287": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: poignant"
+      },
+      "verified": false
+    },
+    "80468": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "15992": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological",
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "3587": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: imaginary friend"
+      },
+      "verified": false
+    },
+    "11863": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "25166": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "1590": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "20981": {
+      "traits": [
+        "slow_burn",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: dread",
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "30141": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "13501": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "12312": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "13538": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "10385": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: amnesia"
+      },
+      "verified": false
+    },
+    "332285": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "43942": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "83860": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "29514": {
+      "traits": [
+        "unreliable_narrator",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination",
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "62728": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "31117": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "8359": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "16358": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "8357": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: parallel world"
+      },
+      "verified": false
+    },
+    "106845": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "79698": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "206213": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "12454": {
+      "traits": [
+        "open_ended"
+      ],
+      "reasons": {
+        "open_ended": "Signal: philosophical"
+      },
+      "verified": false
+    },
+    "17277": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "13856": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: hallucination"
+      },
+      "verified": false
+    },
+    "266034": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "25066": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology"
+      },
+      "verified": false
+    },
+    "71866": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "21612": {
+      "traits": [
+        "plot_twists",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking",
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "206197": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "26352": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "15250": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "12410": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "18530": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "19803": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "43090": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "14474": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "27723": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "157422": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "15365": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "39780": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "292483": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "25248": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: poignant"
+      },
+      "verified": false
+    },
+    "60421": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "47692": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "242083": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: delusion"
+      },
+      "verified": false
+    },
+    "1435": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: schizophrenia"
+      },
+      "verified": false
+    },
+    "12555": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "25636": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psyche"
+      },
+      "verified": false
+    },
+    "37842": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "18206": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "31166": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "22617": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "360339": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "299553": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "39269": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "27549": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "29064": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: revelation"
+      },
+      "verified": false
+    },
+    "25975": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "42345": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "18777": {
+      "traits": [
+        "slow_burn",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: slow burn",
+        "mystery_clues": "Signal: cryptic"
+      },
+      "verified": false
+    },
+    "12183": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "260947": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession",
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "39895": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology"
+      },
+      "verified": false
+    },
+    "36351": {
+      "traits": [
+        "character_transformation",
+        "psychological_depth"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption",
+        "psychological_depth": "Signal: existentialism"
+      },
+      "verified": false
+    },
+    "36047": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "54702": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    },
+    "176077": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "12838": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "34697": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "47452": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "9916": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "352978": {
+      "traits": [
+        "plot_twists",
+        "character_transformation"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "1424": {
+      "traits": [
+        "psychological_depth",
+        "emotion_driven"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma",
+        "emotion_driven": "Signal: loss of lover"
+      },
+      "verified": false
+    },
+    "38153": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "35199": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: puzzle"
+      },
+      "verified": false
+    },
+    "20055": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: revelation"
+      },
+      "verified": false
+    },
+    "77332": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: grief"
+      },
+      "verified": false
+    },
+    "39303": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: trauma"
+      },
+      "verified": false
+    },
+    "35219": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "347764": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: insanity"
+      },
+      "verified": false
+    },
+    "45767": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "42057": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "269057": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "385383": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "98549": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy"
+      },
+      "verified": false
+    },
+    "15699": {
+      "traits": [
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "unreliable_narrator": "Signal: imaginary friend"
+      },
+      "verified": false
+    },
+    "231617": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "14608": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "74457": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: redemption"
+      },
+      "verified": false
+    },
+    "20296": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "40658": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "43213": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: detective"
+      },
+      "verified": false
+    },
+    "36584": {
+      "traits": [
+        "plot_twists",
+        "slow_burn",
+        "unreliable_narrator"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: conspiracy",
+        "slow_burn": "Signal: quiet",
+        "unreliable_narrator": "Signal: paranoia"
+      },
+      "verified": false
+    },
+    "345003": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: corruption"
+      },
+      "verified": false
+    },
+    "59930": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "89540": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "47502": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: flashback"
+      },
+      "verified": false
+    },
+    "278348": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "75986": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "69640": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "66468": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: downfall"
+      },
+      "verified": false
+    },
+    "322194": {
+      "traits": [
+        "psychological_depth",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: subconscious",
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "17044": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "55903": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: depression"
+      },
+      "verified": false
+    },
+    "13518": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "250184": {
+      "traits": [
+        "parallel_storylines",
+        "open_ended"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology",
+        "open_ended": "Signal: philosophical"
+      },
+      "verified": false
+    },
+    "70687": {
+      "traits": [
+        "nonlinear"
+      ],
+      "reasons": {
+        "nonlinear": "Signal: time travel"
+      },
+      "verified": false
+    },
+    "360188": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: quiet"
+      },
+      "verified": false
+    },
+    "69848": {
+      "traits": [
+        "slow_burn"
+      ],
+      "reasons": {
+        "slow_burn": "Signal: deserted"
+      },
+      "verified": false
+    },
+    "51130": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: investigation"
+      },
+      "verified": false
+    },
+    "25428": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: psychological"
+      },
+      "verified": false
+    },
+    "47890": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: betrayal"
+      },
+      "verified": false
+    },
+    "182291": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "176074": {
+      "traits": [
+        "plot_twists"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: shocking"
+      },
+      "verified": false
+    },
+    "323270": {
+      "traits": [
+        "parallel_storylines"
+      ],
+      "reasons": {
+        "parallel_storylines": "Signal: anthology"
+      },
+      "verified": false
+    },
+    "357837": {
+      "traits": [
+        "character_transformation"
+      ],
+      "reasons": {
+        "character_transformation": "Signal: coming of age"
+      },
+      "verified": false
+    },
+    "287815": {
+      "traits": [
+        "mystery_clues"
+      ],
+      "reasons": {
+        "mystery_clues": "Signal: secrets"
+      },
+      "verified": false
+    },
+    "294600": {
+      "traits": [
+        "emotion_driven"
+      ],
+      "reasons": {
+        "emotion_driven": "Signal: poignant"
+      },
+      "verified": false
+    },
+    "255266": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: guilt"
+      },
+      "verified": false
+    },
+    "102840": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: obsession"
+      },
+      "verified": false
+    },
+    "323271": {
+      "traits": [
+        "psychological_depth"
+      ],
+      "reasons": {
+        "psychological_depth": "Signal: nightmare"
+      },
+      "verified": false
+    },
+    "310933": {
+      "traits": [
+        "plot_twists",
+        "mystery_clues"
+      ],
+      "reasons": {
+        "plot_twists": "Signal: twist",
+        "mystery_clues": "Signal: mystery"
+      },
+      "verified": false
+    }
+  }
+}
