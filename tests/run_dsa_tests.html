@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineMatch DSA Test Suite Runner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111827;
+      --border: #1f293d;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #6366f1;
+      --success: #10b981;
+      --fail: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      padding: 2rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 850px;
+    }
+    .header {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      color: #818cf8;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    p.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .summary-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.25rem;
+    }
+    .status-pill {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .test-list { display: flex; flex-direction: column; gap: 1rem; }
+    .test-item {
+      background: #0d1322;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      transition: all 0.2s ease;
+    }
+    .test-item:hover { border-color: rgba(99, 102, 241, 0.5); }
+    .test-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .test-title { font-weight: 600; font-size: 1.05rem; }
+    .test-status {
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+    }
+    .status-pass { background: rgba(16, 185, 129, 0.2); color: var(--success); }
+    .status-fail { background: rgba(239, 68, 68, 0.2); color: var(--fail); }
+    .test-console {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      background: #080c14;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      color: #93c5fd;
+      border: 1px solid #172033;
+      white-space: pre-wrap;
+      line-height: 1.4;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+    .btn {
+      padding: 0.6rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s;
+    }
+    .btn-primary { background: var(--accent); color: white; border: none; }
+    .btn-primary:hover { background: #4f46e5; transform: translateY(-1px); }
+    .btn-secondary { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .btn-secondary:hover { border-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="badge">DSA Verification Engine</span>
+      <h1>Core Algorithm Unit Test Suite</h1>
+      <p class="subtitle">Validating Min-Heap, Dijkstra's Shortest Path, 0/1 Knapsack DP, and Union-Find DSU</p>
+    </div>
+
+    <div class="card">
+      <div class="summary-bar">
+        <div>
+          <strong id="passSummaryText">Running DSA unit tests...</strong>
+          <span style="display:block; font-size:0.8rem; color:var(--text-muted); margin-top:2px;">Target file: tests/dsa_tests.js</span>
+        </div>
+        <div class="status-pill" id="globalStatus">Executing</div>
+      </div>
+
+      <div class="test-list" id="testList">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <button class="btn btn-primary" onclick="rerunTests()">🔄 Rerun All Tests</button>
+      <a href="/" class="btn btn-secondary">🏠 Back to CineMatch Web App</a>
+    </div>
+  </div>
+
+  <script src="dsa_tests.js"></script>
+  <script>
+    function renderVisualTests() {
+      const list = document.getElementById('testList');
+      list.innerHTML = '';
+
+      const tests = [
+        {
+          id: 'test-minheap',
+          name: '1. Min-Heap Priority Queue (Bounded K-Extraction)',
+          complexity: 'Time: O(log K) push/pop, Space: O(K)',
+          run: () => {
+            const pq = new MinHeap();
+            [5, 2, 8, 1, 9, 3].forEach(x => pq.push(x));
+            const sorted = [];
+            while (!pq.isEmpty()) sorted.push(pq.pop());
+            const ok = JSON.stringify(sorted) === JSON.stringify([1, 2, 3, 5, 8, 9]);
+            return { ok, log: `Pushed [5, 2, 8, 1, 9, 3]\nPopped sorted order: [${sorted.join(', ')}]\nInvariant verified: Smallest element consistently at root.` };
+          }
+        },
+        {
+          id: 'test-dijkstra',
+          name: "2. Dijkstra's Shortest Path Algorithm (Movie Bridge)",
+          complexity: 'Time: O((V + E) log V), Space: O(V)',
+          run: () => {
+            const graph = new Map();
+            graph.set('A', [{ node: 'B', weight: 1 }, { node: 'C', weight: 4 }]);
+            graph.set('B', [{ node: 'C', weight: 2 }, { node: 'D', weight: 5 }]);
+            graph.set('C', [{ node: 'D', weight: 1 }]);
+            graph.set('D', []);
+            const res = dijkstraShortestPath(graph, 'A', node => node === 'D');
+            const ok = JSON.stringify(res.path) === JSON.stringify(['A', 'B', 'C', 'D']) && res.totalCost === 4;
+            return { ok, log: `Shortest Path: ${res.path.join(' -> ')}\nTotal Cumulative Weight: ${res.totalCost}\nOptimality condition verified.` };
+          }
+        },
+        {
+          id: 'test-knapsack',
+          name: '3. 0/1 Knapsack Dynamic Programming (Time-Budget Planner)',
+          complexity: 'Time: O(N * W), Space: O(N * W)',
+          run: () => {
+            const movies = [
+              { title: "Movie 1", runtime: 90, value: 80 },
+              { title: "Movie 2", runtime: 120, value: 95 },
+              { title: "Movie 3", runtime: 60, value: 60 },
+              { title: "Movie 4", runtime: 150, value: 100 }
+            ];
+            const res = solveKnapsack01(movies, 210);
+            const ok = res.maxValue === 175 && res.usedCapacity === 210;
+            return { ok, log: `Optimal Selection: ${res.selectedItems.map(m => m.title).join(', ')}\nTotal Value Earned: ${res.maxValue} (Expected: 175)\nExact Runtime Utilized: ${res.usedCapacity}m / 210m.` };
+          }
+        },
+        {
+          id: 'test-unionfind',
+          name: '4. Disjoint Set Union / Union-Find (Story Remake Networks)',
+          complexity: 'Time: O(alpha(N)) amortized with Path Compression & Rank',
+          run: () => {
+            const uf = new UnionFind();
+            uf.union("Drishyam (Malayalam)", "Drushyam (Telugu)");
+            uf.union("Drushyam (Telugu)", "Drishyam (Hindi)");
+            uf.union("Vikram Vedha (Tamil)", "Vikram Vedha (Hindi)");
+
+            const ok1 = uf.connected("Drishyam (Malayalam)", "Drishyam (Hindi)") === true;
+            const ok2 = uf.connected("Drishyam (Malayalam)", "Vikram Vedha (Tamil)") === false;
+            const ok = ok1 && ok2;
+            return { ok, log: `Drishyam (Mal) <-> Drishyam (Hindi) => ${ok1} (Transitive equivalence)\nDrishyam (Mal) <-> Vikram Vedha (Tam) => ${ok2} (Disjoint clusters verified)` };
+          }
+        }
+      ];
+
+      let allPassed = true;
+      tests.forEach(t => {
+        const res = t.run();
+        if (!res.ok) allPassed = false;
+
+        const item = document.createElement('div');
+        item.className = 'test-item';
+        item.innerHTML = `
+          <div class="test-header">
+            <div>
+              <div class="test-title">${t.name}</div>
+              <div style="font-size:0.75rem; color:var(--text-muted);">${t.complexity}</div>
+            </div>
+            <span class="test-status ${res.ok ? 'status-pass' : 'status-fail'}">
+              ${res.ok ? '✓ PASSED' : '✕ FAILED'}
+            </span>
+          </div>
+          <div class="test-console">${res.log}</div>
+        `;
+        list.appendChild(item);
+      });
+
+      const globalStatus = document.getElementById('globalStatus');
+      const summaryText = document.getElementById('passSummaryText');
+      if (allPassed) {
+        globalStatus.textContent = '100% Passed';
+        globalStatus.className = 'status-pill';
+        summaryText.textContent = `All 4/4 Core DSA Algorithms Verified & Passing`;
+      } else {
+        globalStatus.textContent = 'Issues Detected';
+        globalStatus.className = 'status-pill status-fail';
+        summaryText.textContent = `One or more tests failed verification`;
+      }
+    }
+
+    function rerunTests() {
+      renderVisualTests();
+    }
+
+    window.addEventListener('DOMContentLoaded', renderVisualTests);
+  </script>
+</body>
+</html>

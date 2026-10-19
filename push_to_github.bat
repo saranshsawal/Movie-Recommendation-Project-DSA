@@ -13,7 +13,7 @@ echo Committing latest code...
 git commit -m "Initial commit for dsa-movie-recommender-project: All features, algorithms, datasets, and tests"
 echo.
 echo Pushing all files to https://github.com/saranshsawal/dsa-movie-recommender-project.git ...
-git push -u origin main
+git push -u origin main --force
 echo.
 if %ERRORLEVEL% EQU 0 (
     echo ======================================================================
